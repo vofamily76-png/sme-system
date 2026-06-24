@@ -867,7 +867,7 @@
         // sau đó nếu đã cấu hình Google Sheet thì đồng bộ đè lên bằng dữ liệu mới nhất từ Sheet.
         window.addEventListener("load", () => {
             loadLocalCache();
-            if (isScriptUrlConfigured()) loadFromCloud(false);
+            if (isScriptUrlConfigured()) loadFromCloud(true);
         });
     </script>
 </body>
